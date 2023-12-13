@@ -1,0 +1,35 @@
+header {
+    background-color: rgb(116, 4, 116);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(151, 119, 151);
+    padding: 5px 100px 5px 100px;
+}
+a {
+    color: rgb(92, 1, 92);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: whitesmoke;
+}
+section{
+    flex-grow: 1;
+}
+article {
+    padding: 50px 10px;
+}
+footer {
+    background-color: #222222;
+    color: #504e4e;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
